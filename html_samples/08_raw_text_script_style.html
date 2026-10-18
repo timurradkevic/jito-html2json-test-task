@@ -1,0 +1,24 @@
+<head>
+    <style>
+        body > p { color: red; }
+        .a::before { content: "<div>not a tag</div>"; }
+    </style>
+    <script>
+        const html = "<div class='x'>not parsed</div>";
+        if (1 < 2 && 3 > 2) { console.log("</p> inside string"); }
+    </script>
+    <script type="application/json">{"a": "<b>x</b>", "b": [1, 2]}</script>
+    <script src="empty.js"></script>
+    <script>   </script>
+</head>
+<body>
+    <p>Before</p>
+    <SCRIPT>var upper = "<p>still raw</p>";</SCRIPT>
+    <Style>p { margin: 0 }</Style>
+    <xmp><b>shown as text</b> <i>not parsed</i></xmp>
+    <iframe><p>raw text inside iframe</p></iframe>
+    <noembed><b>raw</b></noembed>
+    <noscript><p>noscript content</p></noscript>
+    <title>Title in body &amp; entities</title>
+    <p>After</p>
+    <script>unclosed script at the end of the document: <b>everything here is script text

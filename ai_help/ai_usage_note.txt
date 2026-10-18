@@ -1,0 +1,29 @@
+Dear reviewers,
+
+The task requires one single AI conversation link with the entire history. I was not able to provide that, and I want to explain why openly instead of hiding it.
+
+What happened
+- I do not have a premium subscription for any AI tool.
+- The free plan has message limits. When a limit was reached, I switched to another chat or another account to keep working.
+- Because of this, my AI usage is spread across several chats and accounts. Unfortunately, I did not save any links or screenshots of those chats, so I have nothing to attach in this folder.
+
+Why I did not keep everything in one chat
+- Keeping everything in one chat would mean stopping every time the limit was hit and waiting for it to reset.
+- I decided that this was not a sensible way to work on the task, so I continued in other chats/accounts.
+
+AI tool used
+- Only Claude (Anthropic). No other AI tools were used.
+
+What I used Claude for
+- Analyzing the task in detail and explaining its requirements to me.
+- Examples and help with writing the README.
+- Checking the code for errors and bugs.
+- Comparing the output of my function with the output of a real DOM parser (used only for comparison and testing, not inside the solution).
+- Discussing whether the solution needed to be made more complex or whether a simpler approach was better.
+- Other related questions and discussions along the way.
+
+What I want to be clear about
+- I understand this does not fully meet the requirement of a single conversation link, and I accept the consequences of that.
+- No DOM parser is used in the solution itself.
+
+Thank you for your understanding.

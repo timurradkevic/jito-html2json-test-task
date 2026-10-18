@@ -1,0 +1,11 @@
+<p>Named: &amp; &lt; &gt; &quot; &apos; &copy; &reg; &nbsp;| &euro; &mdash; &hellip; &trade;</p>
+<p>Numeric: &#65; &#x41; &#X41; &#128512; &#x1F600; &#8364;</p>
+<p>Windows-1252 remap: &#128; &#150; &#151; &#153;</p>
+<p>Invalid numeric: &#0; &#xD800; &#x110000; &#99999999999999999999;</p>
+<p>Without semicolon: &copy 2026 &amp &lt &notit; &ampfoo</p>
+<p>Unknown / broken: &unknown; &; &#; &#x; &amp;amp; & alone &&amp;</p>
+<p>Greek and math: &alpha; &Omega; &sum; &infin; &ne; &le; &rarr;</p>
+<p title="Attr: &amp; &lt; &quot; &copy 2026 &notit; x=1&amp=2">Attribute entities</p>
+<a href="?a=1&copy=2&amp;b=3&lang=en">Query string with entity-like text</a>
+<textarea>&lt;b&gt; in textarea is decoded &amp; shown as text</textarea>
+<script>var s = "&lt; not decoded in script &amp;";</script>

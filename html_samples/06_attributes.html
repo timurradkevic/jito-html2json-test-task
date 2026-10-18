@@ -1,0 +1,16 @@
+<div id="a" class='b' data-x=c data-empty="" data-empty2 hidden>Quoted, single, unquoted, empty, boolean</div>
+<div ID="UPPER" Class="Mixed">Upper-case attribute names are lowercased</div>
+<div id="first" id="second">Duplicate attribute: first one wins</div>
+<div __proto__="x" constructor="y" hasOwnProperty="z" toString="w">Prototype-like attribute names</div>
+<div title="He said &quot;hi&quot; and 'bye'">Quotes inside values</div>
+<div title='multi
+line
+value'>Multi-line value</div>
+<div   spaced   =   "value"   other  =  'v2'  >Spaces around equals sign</div>
+<div a=1b=2 c="3"d="4">Missing spaces between attributes</div>
+<a href=/path/to/page.html>Unquoted value with slashes</a>
+<a href=http://example.com/a?b=c&d=e>Unquoted URL</a>
+<input value="a>b" placeholder='x<y'>
+<div =weird>Attribute starting with equals sign</div>
+<div "quoted-name" 'single-name'>Quotes as attribute names</div>
+<div data-json='{"key": "value", "list": [1, 2, 3]}'>JSON in attribute</div>
